@@ -28,7 +28,7 @@ void process1()
 
 void process2()
 {
-    for (int i = 0; i < 200000; i++)
+    for (int i = 0; i < 100000; i++)
     {
         total->value++;
     }
@@ -38,7 +38,7 @@ void process2()
 
 void process3()
 {
-    for (int i = 0; i < 300000; i++)
+    for (int i = 0; i < 100000; i++)
     {
         total->value++;
     }
@@ -48,7 +48,7 @@ void process3()
 
 void process4()
 {
-    for (int i = 0; i < 500000; i++)
+    for (int i = 0; i < 200000; i++)
     {
         total->value++;
     }

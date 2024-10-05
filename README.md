@@ -37,11 +37,10 @@ bash
 
 To run the program, follow these steps:
 
-    Run the executable using the following command:
+    Run the executable using the following commands:
+    - gcc shared_memory_increment.c -o shared_memory_increment
+    - ./shared_memory_increment
 
-    bash
-
-./shared_memory_increment
 
 Program Output: The program will create four child processes. Each child process will increment the shared variable and print its final value. The parent process will print the process ID of each child as they exit and terminate the program.
 
