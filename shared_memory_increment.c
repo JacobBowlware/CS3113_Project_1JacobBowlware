@@ -1,3 +1,8 @@
+// Author:     Jacob Bowlware
+// VM Address: cs014@cs014.cs.ourcloud.ou.edu
+// OU 4x4:     bowl0047
+// OUID:       113536730
+
 #include <stdio.h>
 #include <sys/ipc.h>
 #include <sys/shm.h>
