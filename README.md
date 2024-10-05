@@ -1,8 +1,8 @@
 CS3113
 Project 1
 Jacob Bowlware
-# 1. Prerequisites
 
+# 1. Prerequisites
 To compile and run the program, ensure the following:
 
     GCC (GNU Compiler Collection) is installed.
@@ -11,35 +11,10 @@ To compile and run the program, ensure the following:
 
 If working on a different environment, ensure it supports the necessary system calls.
 
-# 2. Compilation Instructions
-
-Follow these steps to compile the code:
-
-    Download the project files: Ensure that all the source files, including shared_memory_increment.c, are placed in the same directory.
-
-    Open the terminal and navigate to the directory containing the project files. You can use the cd command:
-
-    bash
-
-cd /path/to/your/project/folder
-
-Compile the program using GCC:
-
-bash
-
-    gcc shared_memory_increment.c -o shared_memory_increment
-
-        This will compile the code and create an executable file named shared_memory_increment.
-
-    Check for errors: If there are no compilation errors, the file shared_memory_increment should appear in your project folder.
-
-# 3. Execution Instructions
-
-To run the program, follow these steps:
-
-    Run the executable using the following commands:
-    - gcc shared_memory_increment.c -o shared_memory_increment
-    - ./shared_memory_increment
+# 2. Execution Instructions
+To compile and run the program, follow these steps:
+* gcc shared_memory_increment.c -o shared_memory_increment
+* ./shared_memory_increment
 
 
 Program Output: The program will create four child processes. Each child process will increment the shared variable and print its final value. The parent process will print the process ID of each child as they exit and terminate the program.
